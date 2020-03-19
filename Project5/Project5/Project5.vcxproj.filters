@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Inout">
+      <UniqueIdentifier>{cd6b09da-3354-4fe7-97b1-7b3b6ac82cb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic">
+      <UniqueIdentifier>{394188fe-1271-4034-b290-a12dfa4cb0b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{b563cb48-637c-4ee4-821a-f9ea3da197c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{99c8e599-6df1-4b50-8264-7a424c88f472}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="InOut.h">
+      <Filter>Inout</Filter>
+    </ClInclude>
+    <ClInclude Include="Seqs.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="InOut.cpp">
+      <Filter>Inout</Filter>
+    </ClCompile>
+    <ClCompile Include="Seqd.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

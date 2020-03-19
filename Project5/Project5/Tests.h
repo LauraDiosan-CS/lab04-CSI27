@@ -1,0 +1,2 @@
+void testseqd();
+void testseqsigns();
